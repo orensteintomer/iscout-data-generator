@@ -206,6 +206,7 @@ dbConn.beginTransaction(function(err) {
                                 });
                             } else {
                                 console.log('YESS!!!');
+                                process.exit();
                             }
                         });
                     }
